@@ -18,7 +18,8 @@ nav {
   background: black;
   padding: 1rem;
   text-align: center;
-  width: 80vw;
+  max-width: 1200px;
+  height: auto;
   margin: auto;
 }
 
@@ -36,18 +37,21 @@ nav a:hover {
 
 /* Header */
 
-.header {
-  height: auto;
-  width: 80vw;
+header {
+  max-width: 1200px;
+  height: 70vh;
+  background-image: url('/assets/images/header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin: auto;
-  display: block;
 }
 
 /* Main */
 
 main {
   padding: 1rem;
-  max-width: 80vw;
+  max-width: 1200px;
   margin: auto;
   background-color: lightgray;
 }
